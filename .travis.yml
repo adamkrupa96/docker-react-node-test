@@ -11,7 +11,7 @@ script:
 
 after_success:
   - docker build -t adamkrupa96/react-app ./react-app
-  - docker build -t adamkrupa96/nginx ./nxinx
+  - docker build -t adamkrupa96/nginx ./nginx
   - docker build -t adamkrupa96/server ./server
   - docker build -t adamkrupa96/worker ./worker
   # log in to docker cli
